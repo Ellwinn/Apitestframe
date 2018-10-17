@@ -1,0 +1,19 @@
+{
+  "name": "apitest",
+  "version": "1.0.0",
+  "description": "do api test with supertest and mocha ",
+  "main": "supertestandmocha.js",
+  "dependencies": {
+    "supertest": "^3.3.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "globe": "^0.3.0",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha ./testapi-jsonplaceholde.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
